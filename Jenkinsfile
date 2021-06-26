@@ -10,7 +10,7 @@ node('azurebuilder1') {
 		dir('01-Basic\\001-Hello World') {
 			bat """
 				dir
-				call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Auxiliary\Build\vcvars64.bat"
+				call 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Auxiliary\Build\vcvars64.bat'
 				msbuild
 			"""
 		}
