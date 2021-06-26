@@ -3,7 +3,7 @@ timestamps {
 		stage('Preparation') { // for display purposes
 			// Get some code
 			//getCode(git_url)
-			checkout csm
+			checkout scm
 		}
 		stage('Build') {
 			// Run the main build here
