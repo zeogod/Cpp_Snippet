@@ -13,9 +13,10 @@ timestamps {
 			}
 	
 		}
-		stage('Results') {
+		stage('Run Results') {
 			dir('01-Basic\\001-Hello World') {
 				bat('dir')
+				bat('"x64\\Debug\\001-Hello World.exe"')
 			}
 		}
 	}
