@@ -1,5 +1,5 @@
 timestamps {
-	node('azurebuilder1') {
+	node('windows-basic') {
 		stage('Preparation') { // for display purposes
 			// Get some code
 			//getCode(git_url)
